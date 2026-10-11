@@ -1,0 +1,54 @@
+=== Java compile (exit=0) ===
+
+
+=== Java run (exit=0) ===
+[13:29:44] Worker-3 started.
+[13:29:44] Worker-1 started.
+[13:29:44] Worker-2 started.
+[13:29:44] Worker-3 started Task-1 (Trip request validation)
+[13:29:44] Worker-2 started Task-3 (Fare estimation)
+[13:29:44] Worker-1 started Task-2 (Driver matching)
+[13:29:45] Worker-2 completed Task-3
+[13:29:45] Worker-2 started Task-4 (Route update)
+[13:29:45] Worker-3 completed Task-1
+[13:29:45] Worker-3 started Task-5 (Payment record processing)
+[13:29:45] Worker-1 completed Task-2
+[13:29:45] Worker-1 started Task-6 (Trip summary generation)
+[13:29:45] Worker-2 completed Task-4
+[13:29:45] Worker-2 received shutdown signal.
+[13:29:45] Worker-2 stopped.
+[13:29:45] Worker-1 completed Task-6
+[13:29:45] Worker-1 received shutdown signal.
+[13:29:45] Worker-1 stopped.
+[13:29:45] Worker-3 completed Task-5
+[13:29:45] Worker-3 received shutdown signal.
+[13:29:45] Worker-3 stopped.
+[13:29:45] All tasks queued: 6
+[13:29:45] Results written: 6
+[13:29:45] Output file: /mnt/data/Complete_Data_Processing_Source/java/java-results.txt
+
+
+=== Go run (exit=0) ===
+[13:29:46] Worker-3 started.
+[13:29:46] Worker-3 started Task-1 (Trip request validation)
+[13:29:46] Worker-2 started.
+[13:29:46] Worker-2 started Task-2 (Driver matching)
+[13:29:46] Worker-1 started.
+[13:29:46] Worker-1 started Task-3 (Fare estimation)
+[13:29:46] Worker-1 completed Task-3
+[13:29:46] Worker-1 started Task-4 (Route update)
+[13:29:46] Worker-3 completed Task-1
+[13:29:46] Worker-3 started Task-5 (Payment record processing)
+[13:29:46] Worker-2 completed Task-2
+[13:29:46] Worker-2 started Task-6 (Trip summary generation)
+[13:29:46] Worker-1 completed Task-4
+[13:29:46] Worker-1 stopped.
+[13:29:46] Worker-2 completed Task-6
+[13:29:46] Worker-2 stopped.
+[13:29:46] Worker-3 completed Task-5
+[13:29:46] Worker-3 stopped.
+[13:29:46] All tasks queued: 6
+[13:29:46] Results written: 6
+[13:29:46] Output file: go-results.txt
+
+
